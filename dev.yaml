@@ -1,0 +1,22 @@
+# workspace.yml
+apiVersion: app.terraform.io/v1alpha1
+kind: Workspace
+metadata:
+ name: dev2-env
+ namespace: tf-operator-git
+spec:
+ organization: tfcloud-sb
+ secretsMountPath: "/tmp/secrets"
+ module:
+   source: "git::https://github.com/sbabbar/"
+ variables:
+   - key: instance_count
+     value: "0"
+     sensitive: false
+     environmentVariable: false
+   - key: AWS_ACCESS_KEY_ID
+     sensitive: true
+     environmentVariable: true
+   - key: AWS_SECRET_ACCESS_KEY
+     sensitive: true
+     environmentVariable: true
