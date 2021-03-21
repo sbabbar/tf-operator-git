@@ -8,7 +8,7 @@ spec:
  organization: tfcloud-sb
  secretsMountPath: "/tmp/secrets"
  module:
-   source: "git::https://github.com/sbabbar/"
+   source: "git::https://github.com/sbabbar/tf-operator-git"
  variables:
    - key: instance_count
      value: "0"
