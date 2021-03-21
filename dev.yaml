@@ -11,7 +11,7 @@ spec:
    source: "git::https://github.com/sbabbar/tf-operator-git"
  variables:
    - key: instance_count
-     value: "0"
+     value: "1"
      sensitive: false
      environmentVariable: false
    - key: AWS_ACCESS_KEY_ID
