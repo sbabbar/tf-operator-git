@@ -3,3 +3,5 @@
 
 #variable "secret_key" {
 #}
+variable "instance_type" {
+}
