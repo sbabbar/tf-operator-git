@@ -14,6 +14,18 @@ spec:
      value: t2.micro
      sensitive: false
      environmentVariable: false
+   - key: instance_count
+     value: 1
+     sensitive: false
+     environmentVariable: false
+   - key: instance_name
+     value: my-ec1
+     sensitive: false
+     environmentVariable: false
+   - key: ami
+     value: "ami-0915bcb5fa77e4892"
+     sensitive: false
+     environmentVariable: false
    - key: AWS_ACCESS_KEY_ID
      sensitive: true
      environmentVariable: true
