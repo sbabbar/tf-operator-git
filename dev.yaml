@@ -19,7 +19,7 @@ spec:
      sensitive: false
      environmentVariable: false
    - key: instance_name
-     value: my-ec1
+     value: my-ec-dev
      sensitive: false
      environmentVariable: false
    - key: ami
