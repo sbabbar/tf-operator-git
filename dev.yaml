@@ -15,7 +15,7 @@ spec:
      sensitive: false
      environmentVariable: false
    - key: instance_count
-     value: 1
+     value: "1"
      sensitive: false
      environmentVariable: false
    - key: instance_name
