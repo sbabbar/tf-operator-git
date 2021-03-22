@@ -9,10 +9,10 @@ spec:
  secretsMountPath: "/tmp/secrets"
  module:
    source: "git::https://github.com/sbabbar/tf-operator-git"
- #variables:
- #  - key: AWS_ACCESS_KEY_ID
- #    sensitive: true
- #    environmentVariable: true
- #  - key: AWS_SECRET_ACCESS_KEY
- #    sensitive: true
- #    environmentVariable: true
+ variables:
+   - key: AWS_ACCESS_KEY_ID
+     sensitive: true
+     environmentVariable: true
+   - key: AWS_SECRET_ACCESS_KEY
+     sensitive: true
+     environmentVariable: true
