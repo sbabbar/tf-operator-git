@@ -2,8 +2,8 @@
 apiVersion: app.terraform.io/v1alpha1
 kind: Workspace
 metadata:
- name: dev2-env
- namespace: tf-operator-git
+ name: dev-nprd
+ namespace: flux
 spec:
  organization: tfcloud-sb
  secretsMountPath: "/tmp/secrets"
